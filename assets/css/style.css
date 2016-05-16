@@ -1,0 +1,824 @@
+
+
+body {
+	font-family: Helvetica, sans-serif;
+/*	color: #808080;	*/
+}
+
+header {
+	font-family: 'Roboto Slab', serif;
+	font-size: 400%;
+	font-weight: bolder;
+/*	color: #000000;	*/
+	text-align: center;
+	margin-top: 0px;
+}
+
+h1 {
+	font-family: 'Roboto Slab', serif;
+	font-size: 260%;
+	color: green;
+	text-align: center;
+	margin: 0;
+	border-bottom: solid 2px gray;
+}
+	
+
+h2	{
+	font-family: Roboto Slab, serif;
+	color: ;
+	text-align: center;
+	font-size: 100%;
+	padding-bottom: 5px;
+	margin: 0px;
+}
+	
+
+h3	{
+	font-family: Helvetica, sans-serif;
+	text-align: left;
+	margin: 0;
+}
+
+
+h4 {
+	text-align: center;
+	font-weight:lighter;
+	font-size: 175%;
+	color: #ff0000;
+	padding-top: 0px;
+	margin: 0px;
+}
+
+h5	{
+	font-family: Grand Hotel, cursive;
+	text-align: center;
+	font-size: 500%;
+	margin: 0;
+}
+
+hr {
+	color: green;
+}
+
+/*div.start_here_bkg {
+    align-content: center;
+    background-image: url("../art_photos/Start_WhiteWood_bkg.jpg");
+    background-repeat: no-repeat;
+    background-color: white;
+    position: relative;
+    max-width: 100%;
+    background-color: transparent;
+    background-size: contain;
+    height: 600px;
+    background-position: center;
+}
+
+div.warning_directions_bkg {
+	background-image: url("../art_photos/WoahPardner_Artwork.png");
+	background-repeat: no-repeat;
+	max-width: 100%;
+    height: auto;
+    margin-left:	20%;
+    margin-right:	20%;
+}
+
+
+div.GBB_WhiteWood_bkg {
+	align-content: center;
+    background-image: url("../art_photos/GBB_WhiteWood_bkg.jpg");
+    background-repeat: no-repeat;
+    background-color: white;
+    position: relative;
+    max-width: 100%;
+    background-color: transparent;
+    background-size: contain;
+    width: 100%;
+    height: 600px;
+    background-position: center;
+}
+
+div.Oval_WoodGrain_bkg {
+	align-content: center;
+    background-image: url("../art_photos/Oval_WoodGrain_bkg.jpg");
+    background-repeat: no-repeat;
+    background-color: white;
+    position: relative;
+    max-width: 100%;
+    background-color: transparent;
+    background-size: contain;
+    width: 100%;
+    height: 600px;
+    background-position: center;
+}
+
+div.make_selection_bkg {
+	align-content: center;
+    background-image: url("../art_photos/Please_WhiteWood_bkg.jpg");
+    background-repeat: no-repeat;
+    background-color: white;
+    position: relative;
+    max-width: 100%;
+    background-color: transparent;
+    background-size: contain;
+    width: 100%;
+    height: 600px;
+    background-position: center;
+}
+*/
+div.master{
+	border: gray;
+	border-width: 3px;
+}
+
+div.howTo {
+    position: relative;
+    left: 0;
+    top: 8%;
+    width: 100%;
+    text-align: center;
+    font-size: 120%;
+    color: black;
+}
+
+div.clickOn {
+	position: relative;
+    left: 0;
+    top: 67%;
+    width: 100%;
+    text-align: center;
+    font-size: 120%;
+    color: black;
+}
+
+a {
+	color: #000000;
+	text-decoration: none;
+}
+
+a:link {
+	/*this affects the mat choices in the center */
+	color: #000000;
+	text-decoration: none;
+}
+
+a:visited {
+	color: #000000 ;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #FFEE88;
+	text-decoration: none;
+}
+
+a:active {
+	color:	#ff9900;
+	text-decoration: none;
+}
+/*Use this as example*/
+.index_entrance {
+    position: relative;
+    background-color: gray;
+    border-radius: 13px;
+    margin: 0 auto;
+    margin-bottom: 5px;
+    position: initial;
+}
+
+.index_cashier {
+	position: relative;
+    background-color: gray;
+    border-radius: 13px;
+    margin: 0 auto;
+    margin-bottom: 5px;
+    position: initial;
+}
+
+ .index_prep_area {
+    position: relative;
+    background-color: gray;
+    border-radius: 13px;
+    margin: 0 auto;
+    margin-bottom: 5px;
+    position: initial;
+}
+
+.index_bar {
+	position: relative;
+    background-color: gray;
+    border-radius: 13px;
+    margin: 0 auto;
+    margin-bottom: 5px;
+    position: initial;
+}
+
+.index_cookline {
+	position: relative;
+    background-color: gray;
+    border-radius: 13px;
+    margin: 0 auto;
+    margin-bottom: 5px;
+    position: initial;
+}
+
+.index_dishwash_area {
+	position: relative;
+    background-color: gray;
+    border-radius: 13px;
+    margin: 0 auto;
+    margin-bottom: 5px;
+    position: initial;
+}
+
+.index_salad_bar {
+    position: relative;
+    background-color: gray;
+    border-radius: 13px;
+    margin: 0 auto;
+    margin-bottom: 5px;
+    position: initial;
+}
+
+.index_walk_in {
+	position: relative;
+    background-color: gray;
+    border-radius: 13px;
+    margin: 0 auto;
+    margin-bottom: 5px;
+    position: initial;
+}
+
+.index_transition_area {
+	position: relative;
+    background-color: gray;
+    border-radius: 13px;
+    margin: 0 auto;
+    margin-bottom: 5px;
+    position: initial;
+}
+
+.index_waitress {
+	position: relative;
+    background-color: gray;
+    border-radius: 13px;
+    margin: 0 auto;
+    margin-bottom: 5px;
+    position: initial;
+}
+
+.index_restrooms {
+	position: relative;
+    background-color: gray;
+    border-radius: 13px;
+    margin: 0 auto;
+    margin-bottom: 5px;
+    position: initial;
+}
+
+.index_transport_mat {
+	position: relative;
+    background-color: gray;
+    border-radius: 13px;
+    margin: 0 auto;
+    margin-bottom: 5px;
+    position: initial;
+
+.index_rubber_mats {
+    position: relative;
+    background-color: gray;
+    border-radius: 13px;
+    margin: 0 auto;
+    margin-bottom: 5px;
+    position: initial;
+}
+
+.index_carpet_mats {
+    position: relative;
+    background-color: gray;
+    border-radius: 13px;
+    margin: 0 auto;
+    margin-bottom: 5px;
+    position: initial;
+}
+
+/*Use this as example*/
+.entrance {
+    position: relative;
+    background-color: gray;
+    border-radius: 13px;
+    margin: 0 auto;
+    margin-bottom: 5px;
+    position: initial;
+}
+
+.cashier {
+    position: relative;
+    background-color: gray;
+    border-radius: 13px;
+    margin: 0 auto;
+    margin-bottom: 5px;
+    position: initial;
+}
+
+ .prep_area {
+    position: relative;
+    background-color: gray;
+    border-radius: 13px;
+    margin: 0 auto;
+    margin-bottom: 5px;
+    position: initial;
+}
+
+.bar {
+    position: relative;
+    background-color: gray;
+    border-radius: 13px;
+    margin: 0 auto;
+    margin-bottom: 5px;
+    position: initial;
+}
+
+.cookline {
+    position: relative;
+    background-color: gray;
+    border-radius: 13px;
+    margin: 0 auto;
+    margin-bottom: 5px;
+    position: initial;
+}
+
+.dishwash_area {
+    position: relative;
+    background-color: gray;
+    border-radius: 13px;
+    margin: 0 auto;
+    margin-bottom: 5px;
+    position: initial;
+}
+
+.salad_bar {
+    position: relative;
+    background-color: gray;
+    border-radius: 13px;
+    margin: 0 auto;
+    margin-bottom: 5px;
+    position: initial;
+}
+
+.walk_in {
+    position: relative;
+    background-color: gray;
+    border-radius: 13px;
+    margin: 0 auto;
+    margin-bottom: 5px;
+    position: initial;
+}
+
+.transition_area {
+    position: relative;
+    background-color: gray;
+    border-radius: 13px;
+    margin: 0 auto;
+    margin-bottom: 5px;
+    position: initial;
+}
+
+.waitress {
+    position: relative;
+    background-color: gray;
+    border-radius: 13px;
+    margin: 0 auto;
+    margin-bottom: 5px;
+    position: initial;
+}
+
+.restrooms {
+    position: relative;
+    background-color: gray;
+    border-radius: 13px;
+    margin: 0 auto;
+    margin-bottom: 5px;
+    position: initial;
+}
+
+.transport_mat {
+    position: relative;
+    background-color: gray;
+    border-radius: 13px;
+    margin: 0 auto;
+    margin-bottom: 5px;
+    position: initial;
+
+.rubber_mats {
+    position: relative;
+    background-color: gray;
+    border-radius: 13px;
+    margin: 0 auto;
+    margin-bottom: 5px;
+    position: initial;
+}
+
+.carpet_mats {
+    position: relative;
+    background-color: gray;
+    border-radius: 13px;
+    margin: 0 auto;
+    margin-bottom: 5px;
+    position: initial;
+}
+/*
+.entrance {
+    position: relative;
+    bottom: 590px;
+    left: 255px;
+}
+*/
+.entrance_large {
+	position: relative;
+
+    color:  #ff9900;
+    background-color: gray;
+    border-radius: 13px;
+    margin: 0 auto;
+    margin-bottom: 5px;
+    position: initial;
+}
+/*
+.cashier {
+	position: relative;
+    bottom: 680px;
+    left: 305px;
+}
+
+.cashier_large {
+	position: relative;
+    bottom: 590px;
+    left: 255px;
+    color:  #ff9900;
+}
+
+ .prep_area {
+    position: relative;
+    bottom: 740px;
+    left: 175px;
+}
+
+.prep_area_large {
+	position: relative;
+    bottom: 590px;
+    left: 255px;
+    color:  #ff9900;
+   	text-decoration: none;
+}
+
+.bar {
+	position: relative;
+    bottom: 700px;
+    left: 175px;
+}
+
+.bar_large {
+	position: relative;
+    bottom: 590px;
+    left: 255px;
+    color:  #ff9900;
+   	text-decoration: none;
+}
+
+.cookline {
+	position: relative;
+    bottom: 590px;
+    left: 255px;
+}
+
+.cookline_large {
+	position: relative;
+    bottom: 590px;
+    left: 255px;
+    color:  #ff9900;
+   	text-decoration: none;
+}
+
+.dishwash_area {
+	position: relative;
+    bottom: 590px;
+    left: 255px;
+}
+
+.dishwash_area_large {
+	position: relative;
+    bottom: 590px;
+    left: 255px;
+    color:  #ff9900;
+   	text-decoration: none;
+}
+
+.salad_bar {
+    position: relative;
+    bottom: 590px;
+    left: 255px;
+}
+
+.salad_bar_large {
+	position: relative;
+    bottom: 590px;
+    left: 255px;
+    color:  #ff9900;
+}
+
+.walk_in {
+	position: relative;
+    bottom: 590px;
+    left: 255px;
+}
+
+.walk_in_large {
+	position: relative;
+    bottom: 590px;
+    left: 255px;
+    color:  #ff9900;
+}
+.transition_area {
+	position: relative;
+    bottom: 810px;
+    left: 695px;
+}
+
+.transition_area_large {
+	position: relative;
+    bottom: 590px;
+    left: 255px;
+    color: #ff9900;
+}
+
+.waitress {
+	position: relative;
+    bottom: 590px;
+    left: 255px;
+}
+
+.waitress_large {
+	position: relative;
+    bottom: 590px;
+    left: 255px;
+    color:  #ff9900;
+}
+
+.restrooms {
+	position: relative;
+    bottom: 590px;
+    left: 255px;
+}
+
+.restrooms_large {
+	position: relative;
+    bottom: 590px;
+    left: 255px;
+    color:  #ff9900;
+}
+
+.transport_mat {
+	position: relative;
+    bottom: 590px;
+    left: 255px;
+}
+
+.transport_mat_large {
+	position: relative;
+    bottom: 590px;
+    left: 255px;
+    color:  #ff9900;
+}
+
+.rubber_mats {
+	position: relative;
+    bottom: 590px;
+    left: 255px;
+}
+.rubber_mats_large {
+	position: relative;
+    bottom: 590px;
+    left: 255px;
+    color:  #ff9900;
+}
+
+.carpet_mats {
+	position: relative;
+    bottom: 590px;
+    left: 255px;
+}
+
+.carpet_mats_large {
+	position: relative;
+    bottom: 590px;
+    left: 255px;
+    color:  #ff9900;
+}
+*/
+/*
+div.good_category {
+	font-family: Helvetica, sans-serif;
+	text-align: center;
+	font-weight: lighter;
+	font-size:160%;
+	color: #000000;
+	align-content: center;
+	position: relative;
+	max-width: 100%;
+	top: 13%;
+	text-decoration: none;
+}
+
+div.better_category	{
+	font-family: Helvetica, sans-serif;
+	text-align: center;
+	font-weight: normal;
+	font-size:160%;
+	color: #000000;
+	align-content: center;
+	position: relative;
+	max-width: 100%;
+	top:18%;
+	text-decoration: none;
+}
+
+div.best_category {
+	font-family: Helvetica, sans-serif;
+	text-align: center;
+	font-weight: bold;
+	font-size:160%;
+	color: #000000;
+	align-content: center;
+	position: relative;
+	max-width: 100%;
+	top: 27%;
+	text-decoration: none;
+}
+
+div.best_category_A {
+	font-family: Helvetica, sans-serif;
+	text-align: center;
+	font-weight: bold;
+	font-size:160%;
+	color: #000000;
+	position: absolute;
+    top: 15%;
+    position: relative;
+    max-width: 100%;
+    background-color: transparent;
+    background-size: contain;
+    width: 100%;
+    height: 600px;
+    background-position: center;
+}
+*/
+p {
+	text-align: center;
+	font-size: 85%;
+}
+
+ul {
+	list-style-type: none;
+	text-align: center;
+	text-decoration: none;
+
+}
+
+li {
+/*	text-align: center;
+	text-decoration: none;
+*/
+}
+
+div.detailsLeft{
+	position: relative;
+	left: 10%;
+	max-width: 50%;
+}
+
+div.detailsRight{
+	position: relative;
+	left: 80%;
+	max-width: 50%;
+}
+
+ul li.info{
+	text-align: left
+}
+
+.info{
+	text-align: left;
+}
+
+.company_address {
+	text-align: center;
+}
+
+.footer {
+	font-family: 'Roboto Slab', serif;
+	font-size: 150%;
+	font-weight: bold;
+	text-align: center;
+	margin: 0px;
+	color: green;
+}
+
+.thanks_img {
+	max-width: 30%;
+	padding-left: 18%;
+}
+
+#collect_email{
+	width: 1000px;
+	height: 50px;
+	position:absolute;
+	top:0%;
+	right:0%
+	margin: 0 auto;
+	z-index: 99;
+}
+
+.gPic {
+	align-content: center;
+	top: 50%;
+	left: 50%;
+    position: relative;
+}
+
+table {
+    border: 1px #ff0000;
+    border-collapse: collapse;
+
+}
+th, td {
+    border: 1px #ff0000;
+    border-collapse: collapse;
+   
+}
+
+th, td {
+    padding: 5px;
+}
+
+th {
+    text-align: left;
+}
+
+th, td {
+    border-bottom: 1px solid #ddd;
+}
+
+.master {
+	max-width: 50%;
+	align-content: center;
+}
+
+.left {
+	padding-left: 0px;
+}
+
+.right {
+	padding-right: 0px;
+}
+a[href^="mailto"] {color: #009900; }
+
+/* Omar's Fun Code */
+
+@media (max-width: 800px) {
+
+	div.start_here_bkg {
+		height: 0;
+		background-image: none;
+	}
+
+/* change here for mobile*/
+	.mobile_header {
+		width: 100%;
+		position: initial;
+	}
+
+	.mobile_header a {
+		color: white;
+		margin: 1px;
+	}
+
+	.header_container {
+		background-color: grey;
+    	border-radius: 13px;
+    	margin: 0 auto;
+    	margin-bottom: 5px;
+    	position: initial;
+
+	}
+
+	div.clickOn, div.howTo, footer {
+		display: none;
+	}
+
+	.selector_links {
+		position: relative;
+    	top: 3em;
+	}
+}
+/* this is the end*/
