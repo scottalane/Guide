@@ -5,7 +5,7 @@
 }
 
 .floor_mat_guide_text {
-    width: 80%;
+    width: 100%;
     padding: 3%;
     border: solid 1px;
     border-radius: 6px;
@@ -98,7 +98,7 @@ h2	{
 
 h3	{
 	font-family: Helvetica, sans-serif;
-	text-align: left;
+	text-align: center;
 	margin: 0;
 }
 
@@ -113,10 +113,11 @@ h4 {
 }
 
 h5	{
-	font-family: Grand Hotel, cursive;
-	text-align: center;
-	font-size: 500%;
-	margin: 0;
+	font-family: 'Roboto Slab', serif;
+    font-weight: bold;
+    font-size: 100%
+    color: #ff9900;
+    text-align: center;
 }
 
 hr {
