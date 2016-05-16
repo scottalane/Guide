@@ -6,9 +6,33 @@
 
 .floor_mat_guide_text {
     width: 80%;
-    padding: 10%;
+    padding: 3%;
     border: solid 1px;
+    border-radius: 6px;
 }
+
+.menu_box {
+    background: #C3C3C3;
+    text-align: center;
+    border-radius: 12px;
+    height: 100px;
+    line-height: 100px;
+    width: 47%;
+    margin: 1% 1%;
+    display: inline-block;
+    font-size: 1em;
+}
+
+@media (max-width: 500px) {
+  .menu_box {
+        width: 100%;
+        margin: 1% 1%;
+        font-size: 1em;
+        line-height: 50px;
+        height: 50px;
+    }
+}
+
 
 /* End of Omar's Code */
 
