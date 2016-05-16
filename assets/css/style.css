@@ -9,10 +9,21 @@
     padding: 3%;
     border: solid 1px;
     border-radius: 6px;
+    display: block;
+    margin: auto;
+}
+
+.floor_mat_guide_large {
+    width: 80%;
+    padding: 3%;
+    border: solid 1px;
+    border-radius: 6px;
+    display: block;
+    margin: auto;
 }
 
 .menu_box {
-    background: #C3C3C3;
+    background: #EAEAEA;
     text-align: center;
     border-radius: 12px;
     height: 100px;
@@ -21,6 +32,28 @@
     margin: 1% 1%;
     display: inline-block;
     font-size: 1em;
+}
+
+.good_container, .better_container, .best_container {
+    padding: 0;
+}
+
+.good {
+    background: #EAEAEA;
+    text-align: center;
+    border-radius: 12px;
+    height: 50px;
+    line-height: 50px;
+    width: 100%;
+    margin: 1% 1%;
+    font-size: 1em;
+    list-style-type: none;
+}
+
+.sub_title {
+    background-color: #2FA55E;
+    color: white;
+    font-family: Helvetica;
 }
 
 @media (max-width: 500px) {
@@ -483,7 +516,7 @@ ul {
 	list-style-type: none;
 	text-align: center;
 	text-decoration: none;
-
+    padding: 0;
 }
 
 li {
