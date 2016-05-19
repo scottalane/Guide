@@ -85,6 +85,12 @@
 /* End of Omar's Code */
 
 body {
+    background-image: url(assets/art_photos/wood.jpg);
+    position: absolute;
+    background-color: transparent;
+}
+
+body {
 	font-family: Helvetica, sans-serif;
 /*	color: #808080;	*/
 }
@@ -141,11 +147,6 @@ hr {
     width: 3px;
 }
 
-
-body {
-    background-image: url("assets/art_photos/wood.jpg");
-   /*background-color: white;*/
-}
 /*div.start_here_bkg {
     align-content: center;
     background-image: url("../art_photos/Start_WhiteWood_bkg.jpg");
