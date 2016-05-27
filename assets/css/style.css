@@ -12,7 +12,7 @@
     display: block;
     margin: auto;
     color: #ff9900;
-    font-size: 3em;
+    font-size: 2.5em;
     text-align: center;
 }
 
@@ -23,8 +23,8 @@
     border-radius: 0px;
     display: block;
     margin: auto;
-    color: black;
-    font-size: 1em;
+    color: #009933;
+    font-size: 1.5em;
     text-align: center;
 }
 
@@ -98,7 +98,7 @@ body {
 
 header {
 	font-family: 'Roboto Slab', serif;
-	font-size: 400%;
+	font-size: 100%;
 	font-weight: bolder;
 /*	color: #000000;	*/
 	text-align: center;
@@ -116,6 +116,7 @@ h2	{
 	font-family: Roboto Slab, serif;
 	text-align: center;
     font-weight: 100;
+    font-size: 70%;
 }
 
 h3	{
